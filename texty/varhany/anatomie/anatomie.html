@@ -41,46 +41,9 @@
 <table width="680" border="0" align="center">
   <tr>
     <td><p align="center"> 
-        <script>
-//vložení hudby na pozadí, hudba se díky skriptu přehraje jen při prvním načtení stránky
 
-var jmenoCookie="zobrazjenpoprve";// jpojmenování cookie
-var hod = 1; // počet hodin, za které cookie vyprší
-if(document.cookie.indexOf(jmenoCookie) == -1 ){ // jsem tady poprvé!
-    						var datum= new Date(); // získá aktuální datum v milisekundách
-    						datum.setTime((datum.getTime() + 1000  * 60  * 60 *  hod)); // k datu přidá počet hodin platnosti cookie
-    							
-														document.write("<object classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" codebase=\"http:\/\/download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0\" width=\"220\" height=\"80\">");
-    													document.write("<param name=\"movie\" value=\"mp3_simple.swf\">");
-    													document.write("<param name=\"quality\" value=\"high\"><param name=\"LOOP\" value=\"false\"><param name=\"PLAY\" value=\"true\">");
-    													document.write("<embed src=\"mp3_simple.swf\" width=\"220\" height=\"50\" loop=\"false\" quality=\"high\" pluginspage=\"http:\/\/www.macromedia.com/go/getflashplayer\" type=\"application/x-shockwave-flash\" play=\"false\"></embed></object> "); 							
-														
-							document.cookie= jmenoCookie + "=true; expires=" +datum.toGMTString() ; // zapíše cookie  na počítač
-    
-}
-else {
-document.write("<object classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" codebase=\"http:\/\/download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0\" width=\"220\" height=\"80\">");
-    													document.write("<param name=\"movie\" value=\"mp3_simple_s.swf\">");
-    													document.write("<param name=\"quality\" value=\"high\"><param name=\"LOOP\" value=\"false\"><param name=\"PLAY\" value=\"false\">");
-    													document.write("<embed src=\"mp3_simple_s.swf\" width=\"220\" height=\"50\" loop=\"false\" quality=\"high\" pluginspage=\"http:\/\/www.macromedia.com/go/getflashplayer\" type=\"application/x-shockwave-flash\" play=\"false\"></embed></object> "); 							
-							document.write("<br><font size=\"-3\">Kliknutím na tlačítko &quot;Play&quot; si můžete spustit hudbu na pozadí znovu... </font>");
-
-}
-
-</script>
       <div align="center"> 
-        <noscript>
-        <p> 
-          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="220" height="80">
-            <param name="movie" value="mp3_simple_s.swf">
-            <param name="quality" value="high">
-            <param name="LOOP" value="false">
-            <param name="PLAY" value="false">
-            <embed src="mp3_simple_s.swf" width="220" height="80" loop="false" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" play="false"></embed></object>
-          <br>
-          <font size=\"-3\">Kliknutím na tlačítko &quot;Play&quot; si můžete spustit 
-          hudbu na pozadí... </font> </p>
-        </noscript>
+
       </div>
       <p align="justify">Princip varhan a jejich komponentů je vysvětlen na celé 
         řadě ilustrací, fotografií a animací (vyžaduje FlashPlayer) a textů. <strong>Anatomie 
