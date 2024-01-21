@@ -86,10 +86,10 @@
     ],
 	
  	[ "<span title=\"Informace o postupu aktualizace stránek\">Co je tu nového...</span>", "conoveho.htm", "main"], 
-	[ "<span title=\"Zde můžete napsat svůj vzkaz čtenářům nebo autorovi stánek\">Návštěvní kniha</span>", "http://www.blueboard.cz/kniha_0.php?id=240180&pid=5a09rt1m2tokknu&hid=00r6pxxtvvsej6e0t8jurossj95s9a", "main"],
+//	[ "<span title=\"Zde můžete napsat svůj vzkaz čtenářům nebo autorovi stánek\">Návštěvní kniha</span>", "http://www.blueboard.cz/kniha_0.php?id=240180&pid=5a09rt1m2tokknu&hid=00r6pxxtvvsej6e0t8jurossj95s9a", "main"],
  [ "</a><table width=\"130\" border=\"0\"><tr><td><br><br><br><hr></td></tr></table><p align=\"center\"><a href=\"mailto:ber30@seznam.cz\"><img src=\"images/mail.gif\" width=\"45\" height=\"52\" border=\"0\" alt=\"Napište mi!\"></a></p><a>", null, null],
- [ "</a><table width=\"130\" border=\"0\"><tr><td><hr></td></tr></table><p align=\"center\"><A HREF=\"http://counter.cnw.cz\" TARGET=\"_parent\"><IMG SRC=\"http://counter.cnw.cz/paula.cgi?brtnik&5&0000ff&BEBEBE&on\" ALT=\"[CNW:Counter]\" BORDER=\"0\"></A> ", null, null],
- [ "</a><table width=\"130\" border=\"0\"><tr><td></td></tr></table><p align=\"center\"><font size=\"1\">(průměrná návštěvnost od r. 2002: 9 návštěvníků/den)</font></p><a>", null, null],
+ //[ "</a><table width=\"130\" border=\"0\"><tr><td><hr></td></tr></table><p align=\"center\"><A HREF=\"http://counter.cnw.cz\" TARGET=\"_parent\"><IMG SRC=\"http://counter.cnw.cz/paula.cgi?brtnik&5&0000ff&BEBEBE&on\" ALT=\"[CNW:Counter]\" BORDER=\"0\"></A> ", null, null],
+ //[ "</a><table width=\"130\" border=\"0\"><tr><td></td></tr></table><p align=\"center\"><font size=\"1\">(průměrná návštěvnost od r. 2002: 9 návštěvníků/den)</font></p><a>", null, null],
  [ "</a><table width=\"130\" border=\"0\"><tr><td></td></tr></table><p align=\"center\"><font size=\"1\">Poslední úpravy:  2.1.2010<br> © 2001- 2010<a href=\"mailto:ber30@seznam.cz\"> Ing. Petr Bernat </a></font></p><a>", null, null]
 	  
 
