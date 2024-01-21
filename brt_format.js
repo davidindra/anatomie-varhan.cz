@@ -1,4 +1,4 @@
-var BRT_FORMAT =
+﻿var BRT_FORMAT =
 [
 //0. left position
 	20,

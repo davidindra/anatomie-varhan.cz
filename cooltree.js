@@ -1,4 +1,4 @@
-// Title: COOLjsTree
+﻿// Title: COOLjsTree
 // URL: http://javascript.cooldev.com/scripts/cooltree/
 // Version: 2.8.7c
 // Last Modify: 24 Apr 2007
